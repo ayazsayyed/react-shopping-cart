@@ -1,0 +1,29 @@
+.itemName{
+    font-size: 10px;
+}
+.cartItemWrapper{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cartItemWrapper p{
+    margin: 0;
+}
+.cartItemWrapper li{
+    display: flex;
+}
+.productImage img{
+    width:40px;
+}
+.productName{
+    flex: 0 0 30%;
+}
+.productQuantityWrapper{
+    flex: 0 0 20%;
+}
+.productDelete{
+    cursor: pointer;
+    color: red;
+}
